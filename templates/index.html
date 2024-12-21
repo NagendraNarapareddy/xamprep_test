@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prepare for Eamcet exam effortlessly with Xamprep. Access questions banks, practice tests, and track your progress. Start learning today!">
+    <meta name="keywords" content="eamcet preparation,eamcet,mock tests, learning platform, Xamprep, eamcet 2025,eamcet syllabus,eamcet previous question paper">
+    <title>Xamprep</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Nunito', sans-serif;
+            background: white;
+            color: black;
+            text-align: center;
+            background-color: #245ad6;
+        }
+
+        header {
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color:white;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color:white;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        .mobile-preview {
+            max-width: 400px;
+            margin: 0 auto;
+            position: relative;
+            
+            border-radius: 20px;
+            padding: 20px;
+            
+        }
+
+        .mobile-preview img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .coming-soon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .coming-soon h2 {
+            font-size: 1.2em;
+            margin: 0 0 10px;
+            color: white;
+        }
+
+        .coming-soon p {
+            font-size: 1em;
+            margin: 0;
+            color: white;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Xamprep</h1>
+        <p>Your ultimate EAMCET preparation partner</p>
+    </header>
+
+    <div class="container">
+        <div class="mobile-preview">
+            <img src="{{ url_for('static', filename='iphone.png') }}" alt="Mobile Preview">
+            <div class="coming-soon">
+                <h2>Coming Soon!</h2>
+                <p>Launching in 2025 to enhance eamcet prep!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Xamprep. All rights reserved.</p>
+    </footer>
+</body>
+</html>
